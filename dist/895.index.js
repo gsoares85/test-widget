@@ -1,0 +1,1 @@
+(this.webpackChunkMyWalletApp=this.webpackChunkMyWalletApp||[]).push([[895],{9895:()=>{}}]);
