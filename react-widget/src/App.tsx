@@ -17,7 +17,7 @@ export const App = () => {
 
   return (
     <div className="container">
-      <h1>Home</h1>
+      <h1>Rootstock Widget</h1>
       <p>Value saved on local storage: {value}</p>
       <button onClick={handleValueChange}>Change Value</button>
     </div>

@@ -1,6 +1,6 @@
 {
   "name": "react-widget-test",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "description": "Rootstock Widget",
   "type": "module",
@@ -18,13 +18,13 @@
     "access": "public"
   },
   "author": "Guilherme Soares <guilhermeluzsoares@outlook.com.br>",
-  "homepage": "https://github.com/gsoares85/react-widget",
+  "homepage": "https://github.com/gsoares85/test-widget",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/gsoares85/react-widget.git"
+    "url": "git+ssh://git@github.com/gsoares85/test-widget.git"
   },
   "bugs": {
-    "url": "https://github.com/gsoares85/react-widget/issues"
+    "url": "https://github.com/gsoares85/test-widget/issues"
   },
   "license": "Apache-2.0",
   "keywords": [
