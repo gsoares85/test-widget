@@ -1,0 +1,61 @@
+{
+  "name": "react-widget-test",
+  "version": "0.0.6",
+  "private": false,
+  "description": "Rootstock Widget",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/react-app-env.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:esm": "tsc --build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Guilherme Soares <guilhermeluzsoares@outlook.com.br>",
+  "homepage": "https://github.com/gsoares85/react-widget",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gsoares85/react-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gsoares85/react-widget/issues"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "widget",
+    "bridge",
+    "swap",
+    "cross-chain",
+    "multi-chain",
+    "metamask",
+    "ethereum",
+    "web3"
+  ],
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  }
+}
