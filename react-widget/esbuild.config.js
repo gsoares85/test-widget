@@ -4,9 +4,10 @@ import cssModulesPlugin from'esbuild-css-modules-plugin';
 esbuild.build({
   entryPoints: ['./src/index.ts'],
   bundle: true,
-  outdir: './dist/_esm/',
+  outdir: './dist/_esm',
   format: 'esm',
   sourcemap: true,
   plugins: [cssModulesPlugin()],
   external: ['react', 'react-dom'],
+  loader: { '.css': 'file' },
 }).catch(() => process.exit(1));

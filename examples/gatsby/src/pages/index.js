@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
-import {RskWidget} from "react-widget-test/dist/_esm";
+import {RskWidget} from "react-widget-test/dist/_esm/bundle";
 
 const IndexPage = () => (
   <Layout>

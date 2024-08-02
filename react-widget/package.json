@@ -1,12 +1,15 @@
 {
   "name": "react-widget-test",
-  "version": "0.0.17",
+  "version": "0.0.19",
   "private": false,
   "description": "Rootstock Widget",
   "type": "module",
   "main": "./dist/_esm/index.js",
   "types": "./src/index.d.js",
-  "sideEffects": false,
+  "sideEffects": [
+    "*.css",
+    "./src/**/*.css"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -51,7 +54,7 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.12",
-    "typescript": "^4.4.2",
+    "typescript": "^5.5.4",
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {
