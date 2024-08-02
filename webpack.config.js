@@ -5,7 +5,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    library: 'Widget',
+    library: 'MyWidgetApp',
     libraryTarget: 'umd',
     globalObject: 'this',
   },
@@ -20,10 +20,6 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
-      },
-      {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
       }
     ]
   },
