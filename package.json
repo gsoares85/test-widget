@@ -1,6 +1,6 @@
 {
-  "name": "react-widget",
-  "version": "0.0.1",
+  "name": "react-widget-test",
+  "version": "0.0.2",
   "private": false,
   "main": "dist/index.js",
   "scripts": {
@@ -14,10 +14,6 @@
     "react-dom": "^18.3.1"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^0.3.0",
-    "@tanstack/react-query": "^4.0.0",
-    "ethers": "^5.5.1",
-    "wagmi": "^0.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
