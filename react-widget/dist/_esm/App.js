@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
 export const App = () => {
     const [value, setValue] = useState(0);
     const handleValueChange = () => {
@@ -11,7 +10,7 @@ export const App = () => {
             localStorage.setItem('saved', value.toString());
         }
     }, [value]);
-    return (React.createElement("div", { className: "container" },
+    return (React.createElement("div", null,
         React.createElement("h1", null, "Rootstock Widget"),
         React.createElement("p", null,
             "Value saved on local storage: ",

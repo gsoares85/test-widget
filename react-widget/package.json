@@ -1,6 +1,6 @@
 {
   "name": "react-widget-test",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "private": false,
   "description": "Rootstock Widget",
   "type": "module",
