@@ -11691,10 +11691,10 @@ react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825:
     loose-envify "^1.1.0"
     neo-async "^2.6.1"
 
-react-widget-test@0.0.11:
-  version "0.0.11"
-  resolved "https://registry.npmjs.org/react-widget-test/-/react-widget-test-0.0.11.tgz#ac23a1fa2f300a981054c8fd2b6c0b27409eb658"
-  integrity sha512-SoI7priAl2HBmmDme+u19Pu02TJqp3BDn9Srx04NLnLbrFQGl0CRBoZ2/0sGS2XK107CyvCyZlQcg+fOF/t8Uw==
+react-widget-test@0.0.13:
+  version "0.0.13"
+  resolved "https://registry.npmjs.org/react-widget-test/-/react-widget-test-0.0.13.tgz#01c09bf4a5f82cb07195bf5381051bb6bf70b292"
+  integrity sha512-+UsXwyuvsvZk8S3hclWqCMKpPp0wz6O1qc9MZH+AknRrjqFiosd99SwU9nRxeMfVn4FurX4k8rJmYh0+Utn8GQ==
   dependencies:
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^13.0.0"

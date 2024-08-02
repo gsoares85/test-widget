@@ -1,10 +1,10 @@
 {
   "name": "react-widget-test",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "private": false,
   "description": "Rootstock Widget",
   "type": "module",
-  "main": "./dist/_esm/bundle.js",
+  "main": "./dist/_esm/index.js",
   "types": "./src/index.d.js",
   "sideEffects": false,
   "scripts": {
