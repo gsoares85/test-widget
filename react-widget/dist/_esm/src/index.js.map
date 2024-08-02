@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/App.tsx"],
+  "sourcesContent": ["import React, {useEffect, useState} from 'react';\nimport './App.css';\n\nexport const App = () => {\n  const [value, setValue] = useState(0);\n\n  const handleValueChange = () => {\n    setValue(value + 1);\n  }\n\n  useEffect(() => {\n    const localStorageValue = Number(localStorage.getItem('saved'));\n    if (localStorageValue != value) {\n      localStorage.setItem('saved', value.toString());\n    }\n  }, [value]);\n\n  return (\n    <div className=\"container\">\n      <h1>Rootstock Widget</h1>\n      <p>Value saved on local storage: {value}</p>\n      <button onClick={handleValueChange}>Change Value</button>\n    </div>\n  );\n}\n"],
+  "mappings": ";AAAA,OAAO,SAAQ,WAAW,gBAAe;AAGlC,IAAM,MAAM,MAAM;AACvB,QAAM,CAAC,OAAO,QAAQ,IAAI,SAAS,CAAC;AAEpC,QAAM,oBAAoB,MAAM;AAC9B,aAAS,QAAQ,CAAC;AAAA,EACpB;AAEA,YAAU,MAAM;AACd,UAAM,oBAAoB,OAAO,aAAa,QAAQ,OAAO,CAAC;AAC9D,QAAI,qBAAqB,OAAO;AAC9B,mBAAa,QAAQ,SAAS,MAAM,SAAS,CAAC;AAAA,IAChD;AAAA,EACF,GAAG,CAAC,KAAK,CAAC;AAEV,SACE,oCAAC,SAAI,WAAU,eACb,oCAAC,YAAG,kBAAgB,GACpB,oCAAC,WAAE,kCAA+B,KAAM,GACxC,oCAAC,YAAO,SAAS,qBAAmB,cAAY,CAClD;AAEJ;",
+  "names": []
+}

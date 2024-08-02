@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import './App.css';
 
 export const App = () => {
   const [value, setValue] = useState(0);
@@ -15,7 +16,7 @@ export const App = () => {
   }, [value]);
 
   return (
-    <div>
+    <div className="container">
       <h1>Rootstock Widget</h1>
       <p>Value saved on local storage: {value}</p>
       <button onClick={handleValueChange}>Change Value</button>

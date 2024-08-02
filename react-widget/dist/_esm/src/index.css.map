@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/App.css"],
+  "sourcesContent": [".container {\n    text-align: center;\n    padding: 2em;\n    background-color: #f0f0f0;\n    border-radius: 10px;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n}\n\nh1 {\n    font-size: 2em;\n    color: #333;\n}\n\np {\n    font-size: 1.2em;\n    color: #666;\n}\n\nbutton {\n    padding: 0.5em 1em;\n    font-size: 1em;\n    color: #fff;\n    background-color: #007bff;\n    border: none;\n    border-radius: 5px;\n    cursor: pointer;\n}\n\nbutton:hover {\n    background-color: #0056b3;\n}\n"],
+  "mappings": ";AAAA,CAAC;AACG,cAAY;AACZ,WAAS;AACT,oBAAkB;AAClB,iBAAe;AACf,cAAY,EAAE,EAAE,KAAK,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AACvC;AAEA;AACI,aAAW;AACX,SAAO;AACX;AAEA;AACI,aAAW;AACX,SAAO;AACX;AAEA;AACI,WAAS,MAAM;AACf,aAAW;AACX,SAAO;AACP,oBAAkB;AAClB,UAAQ;AACR,iBAAe;AACf,UAAQ;AACZ;AAEA,MAAM;AACF,oBAAkB;AACtB;",
+  "names": []
+}

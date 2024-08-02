@@ -7,7 +7,6 @@
     <list default="true" id="71e58bcc-22df-4947-85f2-7d4f474ffae8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/gatsby/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gatsby/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/gatsby/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gatsby/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/gatsby/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gatsby/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-widget/dist/_esm/App.d.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-widget/dist/_esm/App.js" beforeDir="false" />
@@ -17,7 +16,8 @@
       <change beforePath="$PROJECT_DIR$/react-widget/dist/_esm/index.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-widget/dist/tsconfig.tsbuildinfo" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-widget/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-widget/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-widget/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-widget/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-widget/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-widget/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-widget/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-widget/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722244125664</updated>
-      <workItem from="1722244126796" duration="33145000" />
+      <workItem from="1722244126796" duration="34968000" />
     </task>
     <servers />
   </component>
