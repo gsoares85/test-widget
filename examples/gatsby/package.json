@@ -13,7 +13,7 @@
     "gatsby-transformer-sharp": "^5.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-widget-test": "0.0.8"
+    "react-widget-test": "0.0.11"
   },
   "devDependencies": {
     "prettier": "^2.8.8"
